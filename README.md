@@ -4,7 +4,7 @@
 </p>
 
 ## Do que se trata?
-SYSONG é um sistema de gerenciamento e gestão de estoque para a ONG [Projeto Gamaliel](https://www.facebook.com/ProjetoGamaliel/) com o objetivo de melhorar o controle das doações recebidas e por consequência, a ONG prestará um serviço ainda mais impactante e eficiente para a sociedade.
+SYSONG é um sistema de gerenciamento e gestão de estoque para uma ONG com o objetivo de melhorar o controle das doações recebidas e por consequência, a ONG prestará um serviço ainda mais impactante e eficiente para a sociedade.
 
 ## Tecnologias
 
@@ -27,14 +27,6 @@ Para que o sistema rode na sua máquina é necessário uma série de etapas list
 
 ### Instalação
 
-Tendo os pré-requisitos já configurados,vamos começar clonando o repositório na nosssa máquina. Para isso escolha uma pasta onde será clonado o repositório,abra o terminal/cmd e use o comando do *git* abaixo:
-```
-git clone https://github.com/projetoestoque/projetoestoquelaravel.git
-```
-Após isso,use ``cd projetoestoquelaravel`` para acessar o projeto clonado.
-
-A segunda etapa será rodar instalar as bibliotecas do composer no projeto para garantir que todas elas estarão no projeto e assim não nos dar nenhum erro de falta de dependência.Estando na pasta do projeto via terminal/cmd use:
-
 ```
 composer install
 ```
@@ -56,15 +48,3 @@ Por fim utilize o comando para rodar a aplicação em localhost:
 php artisan serve
 ```
 No navegador,cole o link: **localhost:8000** e você verá a aplicação funcionando.
-
-## Contribuidores
-
-- [@JuanGustah](https://github.com/JuanGustah) Design e UX
-- [@AlephyV](https://github.com/AlephyV)  Php
-- [@Nidhoggui](https://github.com/Nidhoggui) Php
-- [@874715maria](https://github.com/874715maria) DB
-
-Do nosso time para todos:
->Obrigado por visualizar nosso projeto,sinta-se livre para melhorá-lo.
-
-
